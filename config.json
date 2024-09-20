@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://uat-survey.taxcreditco.com/automation-challenge",
+  "expectedUrl": "https://www.experian.com/employer-services",
+  "firstName": "Ravi",
+  "lastName": "Byroju",
+  "email": "ravibyroju789@gmail.com",
+  "street": "Gajuwaka",
+  "city": "Vijayawada",
+  "zipcode": "91754",
+
+  "cucumber_default_timeout_ms": 10000,
+  "take_screenshots_on_failure": true,
+
+  "browser": {
+    "name": "chromium",
+    "headless": false
+  }
+}

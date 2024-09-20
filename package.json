@@ -1,0 +1,23 @@
+{
+  "name": "cucumber-playwright-typescript-demo",
+  "version": "1.0.0",
+  "description": "Demo project for Playwright Cucumber with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js -p test_runner --tags @demo",
+    "posttest": "node generate_report.js"
+  },
+  "keywords": [],
+  "author": "Ravi B",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.47.1",
+    "@types/chai": "^4.3.19",
+    "chai": "^5.1.1",
+    "cucumber-html-reporter": "^6.0.0",
+    "playwright": "^1.47.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}

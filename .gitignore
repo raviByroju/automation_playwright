@@ -1,0 +1,18 @@
+.vscode
+
+# Dependency directories
+node_modules/
+
+# Custom directories
+screenshots/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+#reports
+reports/*.html
+reports/*.json
+cucumber_report.*
